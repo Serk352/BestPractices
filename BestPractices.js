@@ -14,7 +14,7 @@ this.var1 = var1 this.var2 = var2
 
 doSomething() 
 {
-return this.var1*this.var2;
+return this.var1*this.var2
 }
 
 }
@@ -32,6 +32,9 @@ return this.var2-this.va1/this.var3;
 }
 
 var obj = new class1(2, "holi") var obj2 = new class2(3)
+
+doSome = () => console.log(obj3)
+
 console.log(obj) console.log(obj2)
 
 //As an extra, think outside the box, and using this structure, apply this code to "something" in your code.
