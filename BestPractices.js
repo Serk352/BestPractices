@@ -9,8 +9,7 @@ class class1
 {
 constructor(var1, var2) 
 {
-this.var1 = var1;
-this.var2 = var2;
+this.var1 = var1 this.var2 = var2
 }
 
 doSomething() 
@@ -24,8 +23,7 @@ class class2 extends class1
 {
 constructor(var3)
 {
-super();
-this.var3=var3;
+super() this.var3=var3
 }
 doSom() 
 {
